@@ -1,0 +1,24 @@
+# Secrets and private keys
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+credentials
+.aws/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs and temporary files
+*.log
+*.tmp
